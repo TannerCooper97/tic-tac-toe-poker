@@ -287,11 +287,11 @@ function play(clickedId) {
 
   // CHECKS ALL WINNING COMBINATIONS
   if (topLeft !== undefined && topLeft === topCenter && topLeft === topRight) {
-    alert(`${topLeft} is the winner`);
+    alert(`${topLeft} is the winner`); //
     return;
   }
   if (middleLeft !== undefined && middleLeft === middleCenter && middleLeft === middleRight) {
-    alert(`${middleLeft} is the winner`);
+    alert(`${middleLeft} is the winner`); //
     return;
   }
   if (bottomLeft !== undefined && bottomLeft === bottomCenter && bottomLeft === bottomRight) {
@@ -299,7 +299,7 @@ function play(clickedId) {
     return;
   }
   if (topLeft !== undefined && topLeft === middleLeft && topLeft === bottomLeft) {
-    alert(`${topLeft} is the winner`);
+    alert(`${topLeft} is the winner`); //
     return;
   }
   if (topCenter !== undefined && topCenter === middleCenter && topCenter === bottomCenter) {
@@ -311,7 +311,7 @@ function play(clickedId) {
     return;
   }
   if (topLeft !== undefined && topLeft === middleCenter && topLeft === bottomRight) {
-    alert(`${topLeft} is the winner`);
+    alert(`${topLeft} is the winner`); //
     return;
   }
   if (bottomLeft !== undefined && bottomLeft === middleCenter && bottomLeft === topRight) {
@@ -334,6 +334,7 @@ function play(clickedId) {
 ```
 
 </details>
+
 
 ## Black Diamond 
 
